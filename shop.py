@@ -1,5 +1,5 @@
 #Import necessary modules from SQLAlchemy
-from sqlalchemy import create_engine, Column, Integer, String, ForeignKey, Boolean, select, func
+from sqlalchemy import create_engine, Integer, String, ForeignKey, Boolean, select, func
 from sqlalchemy.orm import DeclarativeBase, sessionmaker, relationship, mapped_column, Mapped
 from typing import List
 
